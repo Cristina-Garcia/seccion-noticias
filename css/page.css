@@ -1,0 +1,40 @@
+/* .page-articles {
+  display: flex;
+
+  gap: 2rem;
+} */
+.header-name {
+  color: var(--green);
+}
+.article-1 {
+  background-image: url("../images/img2.png");
+  display: flex;
+  object-fit: cover;
+}
+.article-2 {
+  background-image: url("../images/img1.png");
+  display: flex;
+  object-fit: cover;
+}
+.article-3 {
+  background-image: url("../images/interfaz.jpg");
+  display: flex;
+  object-fit: cover;
+}
+
+.article-content1,
+.article-content2,
+.article-content3 {
+  justify-items: flex-end;
+  padding-inline: 2.5rem;
+  padding-block-end: 1rem;
+}
+
+h2 {
+  font-family: var(--BodyH3);
+  color: var(--white);
+}
+p {
+  font-family: var(--Body1);
+  color: var(--white);
+}

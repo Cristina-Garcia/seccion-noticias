@@ -1,0 +1,46 @@
+@import "./styles.css";
+@import "./page.css";
+@import "./button.css";
+
+.page {
+  display: grid;
+  block-size: 100vh;
+  padding: 5rem;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas:
+    "header article1"
+    "article2 article3";
+  gap: 2rem;
+}
+
+.header {
+  grid-area: header;
+}
+.article-1 {
+  grid-area: article1;
+}
+.article-2 {
+  grid-area: article2;
+}
+.article-3 {
+  grid-area: article3;
+}
+
+@media (max-width: 768px) {
+  .page {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "header"
+      "article1"
+      "article2"
+      "article3";
+    gap: 2rem;
+  }
+  .header-name {
+    flex: 1;
+  }
+}

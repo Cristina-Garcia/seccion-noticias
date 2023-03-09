@@ -1,0 +1,49 @@
+.button-primary {
+  font-family: var(--Body1);
+  color: var(--white);
+  background: var(--green);
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  border: none;
+}
+.button-category {
+  color: var(--button);
+  background: var(--white);
+  padding-block: 0.5rem;
+  padding-inline: 1rem;
+  border: none;
+}
+/* .slider-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.slider {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 2.5rem;
+  margin-top: 1rem;
+}
+.circle {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: var(--white);
+  position: relative;
+}
+
+.button-article {
+  padding-block-start: 7.5rem;
+  margin-block-end: 1.5rem;
+}
+.button-article button:nth-child(1) {
+  margin-inline-end: 1.5rem;
+}
+
+.more-link {
+  text-decoration: none;
+  font-family: var(--Body1);
+  color: var(--white);
+}

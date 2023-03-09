@@ -1,0 +1,38 @@
+:root {
+  --primary: #080706;
+  --neutral: #62728f;
+  --white: #ffffff;
+  --grey-light: #cfd6e3;
+  --grey-dark: #303c51;
+  --Body: #575757;
+  --green: #196046;
+  --button: #242629;
+  --yellow: #ffe094;
+  --bodyFontFamily: "Inter", sans-serif;
+  --BodyH3: Inter 1.375 rem var(--bodyFontFamily);
+  --Body1: Inter 1.125 rem var(--bodyFontFamily);
+  --BodyH1: bold Inter 3.125 rem var(--bodyFontFamily);
+}
+
+
+:root { 
+  --bg: #242629; 
+  --grey-ligth: #cfd6e3; 
+  --grey-dark: #303c51; 
+  --white: #ffffff; 
+  --neutral: #62728f; 
+  --green: #196046; 
+  --yellow: #ffe084; 
+  --h1: 700 3.125rem/normal Inter; 
+  --h2: 700 2.5rem/normal Inter; 
+  --h3: 600 1.375rem/2.5rem Inter; 
+  --body1-regular: 400 1.125rem/1.75rem Inter; 
+  --body1-bold: 700 1.125rem/normal Inter; 
+  --body1-regular: 400 0.875rem/1.75rem Inter;   
+}
+
+body {
+  font: var(--body1-regular);
+  color: var(--green);
+  background-color: var(--white);
+}
